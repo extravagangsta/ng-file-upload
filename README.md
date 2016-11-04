@@ -412,7 +412,7 @@ The model value will be a single file instead of an array if all of the followin
 When any of the validation directives specified the form validation will take place and
 you can access the value of the validation using `myForm.myFileInputName.$error.<validate error name>`
 for example `form.file.$error.pattern`.
-If multiple file selection is allowed you can specify `ngf-model-invalid="invalidFiles"` to assing the invalid files to 
+If multiple file selection is allowed you can specify `ngf-model-invalid="invalidFiles"` to assign the invalid files to 
 a model and find the error of each individual file with `file.$error` and description of it with `file.$errorParam`.
 You can use angular ngf-model-options to allow invalid files to be set to the ng-model  `ngf-model-options="{allowInvalid: true}"`.
 
